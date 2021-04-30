@@ -1,30 +1,27 @@
 import emoji from 'react-easy-emoji';
 
-import googlelogo from './assets/img/icons/common/google.svg'
-import github from './assets/img/icons/common/github.svg'
-import airbnb from './assets/img/icons/common/airbnbLogo.png'
+import lambdaLogo from './assets/img/icons/common/lambda_icon.png'
 
 export const greetings = {
-    "name": "Hanzla Tauqeer",
-    "title": "Hi all, I'm Hanzla",
-    "description": "A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-    "resumeLink": "https://cv.hanzla.ga"
+    "name": "Michael Phelps",
+    "title": "Hi all, I'm Mike!",
+    "description": "A passionate Full Stack Web Developer having experience with building Web applications using JavaScript / Reactjs / Nodejs  and some other cool libraries and frameworks. Currently I am working as a Freelance Developer, available for one-off projects as well as long term contracts.",
+    "resumeLink": "https://firebasestorage.googleapis.com/v0/b/phelpsweb-d4e40.appspot.com/o/Resume%20-%20Michael%20Phelps.pdf?alt=media&token=31836741-d4c9-4f5f-a834-f00cd5559e32"
 }
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: 'mphelps1978',
 };
 
 export const contact = {
-  
+
 }
 
 export const socialLinks = {
-    "facebook": "https://www.facebook.com/1hanzla100",
-    "instagram": "https://www.instagram.com/1hanzla100",
-    "twitter": "https://twitter.com/1hanzla100",
-    "github": "https://github.com/1hanzla100",
-    "linkedin": "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/"
+    "facebook": "https://www.facebook.com/mjphelps1978",
+    "twitter": "https://twitter.com/psybermind",
+    "github": "https://github.com/mphelps1978",
+    "linkedin": "https://www.linkedin.com/in/michael-phelps1978/"
 }
 
 export const skillsSection = {
@@ -32,14 +29,16 @@ export const skillsSection = {
     subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
     skills: [
       emoji(
-        '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
+        '⚡ Develop highly interactive Front end / User Interfaces for your web applications'
       ),
-      emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
+      emoji(
+        '⚡ Develop intuitive, scaling RESTful Api\'s for your web applications'
+      ) ,
       emoji(
         '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
       ),
     ],
-    
+
     softwareSkills: [
       {
         skillName: 'html-5',
@@ -58,10 +57,6 @@ export const skillsSection = {
         fontAwesomeClassname: 'logos:javascript',
       },
       {
-        skillName: 'TypeScript',
-        fontAwesomeClassname: 'logos:typescript-icon',
-      },
-      {
         skillName: 'reactjs',
         fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
       },
@@ -70,19 +65,11 @@ export const skillsSection = {
         fontAwesomeClassname: 'logos:nodejs-icon',
       },
       {
-        skillName: 'flutter',
-        fontAwesomeClassname: 'logos:flutter',
-      },
-      {
-        skillName: 'swift',
-        fontAwesomeClassname: 'vscode-icons:file-type-swift',
-      },
-      {
         skillName: 'npm',
         fontAwesomeClassname: 'vscode-icons:file-type-npm',
       },
       {
-        skillName: 'sql-database',
+        skillName: 'PostgreSQL',
         fontAwesomeClassname: 'vscode-icons:file-type-sql',
       },
       {
@@ -105,10 +92,6 @@ export const skillsSection = {
         skillName: 'git',
         fontAwesomeClassname: 'logos:git-icon',
       },
-      {
-        skillName: 'docker',
-        fontAwesomeClassname: 'logos:docker-icon',
-      },
     ],
 }
 
@@ -119,8 +102,8 @@ export const SkillBars = [
       progressPercentage: '90', //Insert relative proficiency in percentage
     },
     {
-      Stack: 'Backend',
-      progressPercentage: '70',
+      Stack: 'Backend RESTful Api\'s',
+      progressPercentage: '85',
     },
     {
       Stack: 'Programming',
@@ -130,81 +113,83 @@ export const SkillBars = [
 
 export const educationInfo = [
     {
-      schoolName: 'Harvard University',
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
+      schoolName: 'Lambda School',
+      subHeader: 'Certificate and Endorsement - Full Stack Web Development',
+      duration: 'October 2019 - Present',
+      desc: 'Lambda School is a 9+ month accelerated program with an immersive (full-time, 40+ hours/week) hands on curriculum with a focus on comptuer science, software engineering and web development.',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Received Certificate of Graduation - 2021',
+        'Received Endorsement - Full Stack Web Developer - 2021',
+        'Served as Team Lead (Only 10% are hired from student pool)'
       ],
     },
     {
-      schoolName: 'Harvard',
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
+      schoolName: 'California State University, Fresno',
+      subHeader: 'Bachelor of Science - Information Systems Engineering',
+      duration: 'September 2000 - June 2004',
+      desc: 'Obtained Professional Certifications from Microsoft, Novell, and Cisco Systems',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetfgur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Serrved as On-Air Personality for university radio station',
       ],
-    },
-    {
-      schoolName: 'Stanford University',
-      subHeader: 'Bachelor of Science in Computer Science',
-      duration: 'September 2013 - April 2017',
-      desc:
-        'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
-      descBullets: ['Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit'],
     },
 ]
 
 export const experience = [
   {
-    role: 'Software Engineer',
-    company: 'Google',
-    companylogo: googlelogo,
-    date: 'June 2018 – Present',
+    role: 'Team Lead - Full Time',
+    company: 'Lambda School',
+    companylogo: lambdaLogo,
+    date: 'February 2020 - October 2020',
     desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Directly responsible for managing teams of 4-8 engineering students',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'Led daily standup meetings with the team to review technical concepts and provide further group coaching on those areas using a classroom-like approach via Zoom screen share',
+      'Conducted 1 on 1 code reviews daily (approximately 40 per week) in line with assigned projects',
+      'Served as project lead on multiple cross-functional builds, sprints, and projects'
     ],
-  },
-  {
-    role: 'Front-End Developer',
-    company: 'Github',
-    companylogo: github,
-    date: 'May 2017 – May 2018',
-    desc:
-      'Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
-  {
-    role: 'Software Engineer Intern',
-    company: 'Airbnb',
-    companylogo: airbnb,
-    date: 'Jan 2015 – Sep 2015',
-    desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
 ]
 
 export const projects = [
   {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-  },
-  {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-  },
-  {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    name: "Tally-AI (front end)",
+    desc: "A web-based app that allows you to learn what your customers think about your business based on Yelp! reviews ",
     link: {
-      name: "hanzla",
-      url: "kasjfklsdjf"
+      name: "github",
+      url: "https://github.com/mphelps1978/tally-ai-fe"
+    }
+  },
+
+  {
+    name: "Tally-AI (back-end)",
+    desc: "A RESTful API that serves as the data source for the front-end client, taking in ML Data from a data-science api",
+    link: {
+      name: "github",
+      url: "https://github.com/mphelps1978/tally-ai-be"
+    }
+  },
+  {
+    name: "Covid-19 Tracker",
+    desc: "A web-based application that tracks real world statistics on the H1N1 Coronavirus",
+    link: {
+      name: "github",
+      url: "https://github.com/mphelps1978/pf-project-corona-tracker"
+    }
+  },
+  {
+    name: "The Game of Life",
+    desc: "A simulation of cellular automata, or \'When one cell lives, another dies\'",
+    link: {
+      name: "github",
+      url: "https://github.com/mphelps1978/game-of-life"
+    }
+  },
+  {
+    name: "Social-Clone - Functions",
+    desc: "A Firebase Functions implementation of a simple social media implementation",
+    link: {
+      name: "github",
+      url: "https://github.com/mphelps1978/social-clone-functions"
     }
   }
 ]

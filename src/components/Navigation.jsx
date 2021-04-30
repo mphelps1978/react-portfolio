@@ -20,7 +20,7 @@ import './Navigation.css'
 const Navigation = () => {
     const [collapseClasses, setCollapseClasses] = useState("");
     const onExiting = () => setCollapseClasses("collapsing-out");
-    
+
     const onExited = () => setCollapseClasses("");
 
     useEffect(() => {
@@ -29,7 +29,7 @@ const Navigation = () => {
       headroom.init();
     })
 
-    return ( 
+    return (
         <>
         <header className="header-global">
           <Navbar
@@ -82,18 +82,6 @@ const Navigation = () => {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href={socialLinks.instagram}
-                      target="_blank"
-                    >
-                      <i className="fa fa-instagram" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Instagram
-                      </span>
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className="nav-link-icon"
                       href={socialLinks.twitter}
                       target="_blank"
                     >
@@ -135,5 +123,5 @@ const Navigation = () => {
       </>
      );
 }
- 
+
 export default Navigation;
