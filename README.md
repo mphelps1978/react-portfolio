@@ -1,4 +1,4 @@
-### React-Porfolio
+# React-Porfolio
 
 ## Technologies Used
 
