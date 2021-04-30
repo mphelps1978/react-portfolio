@@ -14,8 +14,7 @@
 ## Illustrations
 - [Lottie File Source](https://lottiefiles.com)
 
-## For the Future
-If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/saadpasta/developerFolio/pulls).
+## Todo
 
 - Enable Dark Mode
 
