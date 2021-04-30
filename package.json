@@ -1,16 +1,16 @@
 {
   "name": "developer-portfolio",
   "version": "1.0.0",
-  "description": "Software Developer Portfolio Template built with react.js bootstrap that helps you showcase your work and skills as a software developer.",
+  "description": "Software Developer Portfolio.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/argon-design-system-react.git"
+    "url": "git+https://github.com/mphelps1978/react-portfolio"
   },
-  "author": "1hanzla100",
+  "author": "Michael Phelps",
   "license": "MIT",
   "bugs": {
-    "url": "https://hanzla.ga"
+    "url": "https://www.phelpsweb.dev"
   },
   "homepage": "",
   "scripts": {
